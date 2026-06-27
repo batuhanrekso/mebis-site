@@ -121,8 +121,8 @@ ul {
 
 #session-progress .label-info {
   display: inline-block;
-  padding: 6px 12px;
-  font-size: 20px;
+  padding: 3px 8px;
+  font-size: 12px;
   font-weight: 400;
   background-color: #03a9f4;
   color: #fff;
