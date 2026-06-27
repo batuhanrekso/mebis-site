@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mebis - Derslerim</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/sinavlar.css">
+  <link rel="stylesheet" href="css/dersler.css">
+</head>
+<body>
+  <div id="container" class="effect mainnav-lg mainnav-fixed">
+    <header id="navbar">
+      <div id="navbar-container">
+        <div class="navbar-header">
+          <a href="dashboard.html" class="navbar-brand">
+            <img src="assets/brand-icon.png" alt="Mebis" class="brand-icon">
+            <span class="brand-text">&nbsp;Mebis</span>
+          </a>
+        </div>
+        <div class="navbar-content">
+          <div class="navbar-left">
+            <ul class="nav navbar-top-links">
+              <li class="tgl-menu-btn"><a class="mainnav-toggle" href="#"><i class="fa fa-navicon fa-lg"></i></a></li>
+              <li><a href="#"><i class="fa fa-cutlery fa-lg"></i></a></li>
+            </ul>
+            <div id="session-progress"><span class="label label-info" id="server-clock">27.06.2026 22:42:18</span></div>
+          </div>
+          <div class="navbar-right">
+            <ul class="nav navbar-top-links">
+              <li><a href="#"><span class="flag-icon-tr-nav" title="Türkçe"></span></a></li>
+              <li class="bell-wrap"><a href="#"><i class="fa fa-bell"></i><span class="badge badge-header badge-danger"></span></a></li>
+              <li>
+                <a href="#" class="dropdown-user-link">
+                  <img class="img-circle img-user media-object" src="assets/profile-nav.png" alt="Mert Eren GÜÇLÜ">
+                  <span class="username hidden-xs">Mert Eren GÜÇLÜ</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="boxed">
+      <div id="content-container" class="has-footer">
+        <div id="page-title">
+          <h1 class="page-header text-overflow">Öğrenci / Derslerim</h1>
+          <div class="searchbox">
+            <div class="custom-search-form">
+              <input id="txtAra" type="text" placeholder="Ara.." value="">
+              <button type="button"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div id="page-content">
+          <div class="tab-base">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#">2025 - 2026 <span class="badge">3. Sınıf</span></a></li>
+              <li><a href="#">2024 - 2025 <span class="badge">2. Sınıf</span></a></li>
+              <li><a href="#">2023 - 2024 <span class="badge">1. Sınıf</span></a></li>
+              <li><a href="#">2022 - 2023 <span class="badge">Hazırlık</span></a></li>
+              <li><a href="#">2022 - 2023 <span class="badge">Hazırlık</span></a></li>
+            </ul>
+
+            <div class="tab-header-info clearfix">
+              <p class="status-line">Lisans / ÖSYM / Okuyor</p>
+              <p class="student-id-line">9A220055 — MERT EREN GÜÇLÜ / İşletme ve Yönetim Bilimleri Fakültesi / Yönetim Bilişim Sistemleri Programı (İngilizce)</p>
+            </div>
+
+            <div class="dersler-stats">
+              <div class="stat-box"><span class="label-text">AKTS:</span> <strong id="stat-akts">137</strong></div>
+              <div class="stat-box"><span class="label-text">GANO:</span> <strong id="stat-gano">2,6</strong></div>
+              <div class="stat-box"><span class="label-text">SANO:</span> <strong id="stat-sano">2,115</strong></div>
+              <button class="btn-raporlar" type="button">Raporlar</button>
+            </div>
+
+            <div class="table-toolbar">
+              <div></div>
+              <div class="btn-group">
+                <input id="table-search" class="table-search" type="text" placeholder="Ara" value="">
+                <button class="btn-default" type="button" title="Yazdır"><i class="fa fa-print"></i></button>
+                <button class="btn-default" type="button" title="Yenile"><i class="fa fa-refresh"></i></button>
+                <button class="btn-default" type="button" title="Veri Aktarımı"><i class="fa fa-share"></i></button>
+              </div>
+            </div>
+
+            <div class="mebis-table-wrap">
+              <table class="mebis-table dersler-table">
+                <thead>
+                  <tr>
+                    <th class="icon-col">...</th>
+                    <th class="icon-col">...</th>
+                    <th>Türü</th>
+                    <th>Kodu</th>
+                    <th>Adı</th>
+                    <th>AKTS</th>
+                    <th>Kredi</th>
+                    <th>Dili</th>
+                    <th>Durumu</th>
+                    <th>Ortalaması</th>
+                    <th>Başarı Katsayısı</th>
+                    <th>İşlemler</th>
+                  </tr>
+                </thead>
+                <tbody id="dersler-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <span>© 2011 - 2026 İstanbul Medipol Üniversitesi - Ver.2024.05.01-3 - S.113</span>
+      <a href="#">Talep/Sorun</a>
+    </footer>
+
+    <nav id="mainnav-container">
+      <div id="mainnav">
+        <div id="mainnav-profile" class="mainnav-profile">
+          <div class="profile-wrap">
+            <div class="pad-btm">
+              <img class="img-circle img-md img-border" src="assets/profile-sidebar.png" alt="Mert Eren GÜÇLÜ">
+            </div>
+            <p class="mnp-name">Mert Eren GÜÇLÜ</p>
+            <span class="mnp-desc">mert.guclu@std.medipol.edu.tr</span>
+          </div>
+        </div>
+        <div id="mainnav-shortcut">
+          <ul class="shortcut-wrap">
+            <li><a class="shortcut-grid" href="dashboard.html" title="Anasayfa"><div class="icon-wrap-sm icon-circle bg-trans-dark"><i class="fa fa-home"></i></div></a></li>
+            <li><a class="shortcut-grid" href="#" title="Mesajlar"><div class="icon-wrap-sm icon-circle bg-trans-dark"><i class="fa fa-envelope"></i></div></a></li>
+            <li><a class="shortcut-grid" href="#" title="Dosya Gezgini"><div class="icon-wrap-sm icon-circle bg-trans-dark"><i class="fa fa-folder-open"></i></div></a></li>
+          </ul>
+        </div>
+        <ul id="mainnav-menu">
+          <li class="list-header">Kullanıcı</li>
+          <li><a href="#"><i class="fa fa-user-o"></i><span class="menu-title">Kullanıcı</span><i class="arrow"></i></a></li>
+          <li><a href="#"><i class="fa fa-graduation-cap"></i><span class="menu-title">Öğrenci</span><i class="arrow"></i></a></li>
+          <li class="list-header">Merkezler</li>
+          <li><a href="#"><i class="fa fa-history"></i><span class="menu-title">Sürekli Eğitim</span><i class="arrow"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <a class="scroll-top" href="#" aria-label="Yukarı"><i class="fa fa-chevron-up"></i></a>
+  <script src="js/dashboard.js"></script>
+  <script src="js/dersler.js"></script>
+</body>
+</html>

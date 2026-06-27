@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEBİS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div id="container" class="cls-container">
+    <div id="bg-overlay" style="background-image: url('assets/bg.jpg');"></div>
+
+    <div class="cls-header cls-header-lg">
+      <div class="mebis-lang-position pad-top">
+        <a class="login-dil" href="#" title="Türkçe">
+          <span class="lang-selected"><i class="flag-icon flag-icon-tr"></i></span>
+        </a>
+        <a class="login-dil" href="#" title="English">
+          <span class="lang-selected"><i class="flag-icon flag-icon-gb"></i></span>
+        </a>
+      </div>
+      <div class="cls-brand">
+        <a class="box-inline" href="https://www.medipol.edu.tr/" target="_blank" rel="noopener">
+          <img alt="MEBİS" src="assets/logo.png" class="brand-icon">
+          <span class="brand-title">İstanbul Medipol Üniversitesi <span class="text-thin">- MEBİS</span></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="cls-content">
+      <div id="login-panel" class="cls-content-sm panel">
+        <div class="panel-body">
+          <br>
+          <form id="login-form" method="post" action="dashboard.html">
+            <div class="mar-ver pad-btm">
+              <h1 class="h3">Kullanıcı Girişi</h1>
+              <p>Hesabınızla giriş yapınız</p>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon bg-gray"><i class="fa fa-user"></i></div>
+                <input autocomplete="username" autofocus class="form-control" id="KullaniciAdi" name="KullaniciAdi" placeholder="Kullanıcı Adı" type="text" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon bg-gray"><i class="fa fa-asterisk"></i></div>
+                <input autocomplete="current-password" class="form-control" id="parola" name="Parola" placeholder="Şifre" type="password" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <button type="submit" class="btn btn-primary btn-lg btn-block">GİRİŞ</button>
+              <a href="#" class="btn btn-danger btn-lg btn-block">
+                <img src="assets/edevlet.png" alt="" style="height:25px"> E-Devlet ile Giriş
+              </a>
+              <a href="#" class="btn btn-primary btn-lg btn-block">
+                <img src="assets/office365.png" alt="" style="height:25px"> Office365 ile Giriş
+              </a>
+            </div>
+          </form>
+
+          <div class="pad-all">
+            <a href="#" class="btn-link mar-rgt">Şifre İşlemleri</a>
+          </div>
+
+          <div id="session-progress">
+            ( <span class="text-lg">4926</span> aktif oturum )
+          </div>
+        </div>
+      </div>
+
+      <div class="cls-content-sm social-section">
+        <div class="pad-all social-buttons">
+          <a class="btn btn-info btn-icon fa fa-envelope-o" href="mailto:bilgi@medipol.edu.tr" title="E-Posta Adresi"></a>
+          <a class="btn btn-primary btn-icon fa fa-facebook" href="https://www.facebook.com/medipoluniversitesi" target="_blank" rel="noopener" title="Facebook"></a>
+          <a class="btn btn-info btn-icon fa fa-twitter" href="https://twitter.com/medipolunv" target="_blank" rel="noopener" title="Twitter"></a>
+          <a class="btn btn-danger btn-icon fa fa-youtube" href="https://www.youtube.com/medipoluniversitesi" target="_blank" rel="noopener" title="YouTube"></a>
+          <a class="btn btn-info btn-icon fa fa-linkedin" href="https://www.linkedin.com/school/medipoluniversitesi" target="_blank" rel="noopener" title="Linkedin"></a>
+          <a class="btn btn-mint btn-icon fa fa-instagram" href="https://www.instagram.com/medipolunv/" target="_blank" rel="noopener" title="Instagram"></a>
+        </div>
+
+        <div class="app-buttons">
+          <a href="https://apps.apple.com/tr/app/i-stanbul-medipol-%C3%BCniversitesi/id6756066960?l=tr" target="_blank" rel="noopener">
+            <img src="assets/appstore.png" width="149" height="48" alt="App Store">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.medipoledutr.mobileapp" target="_blank" rel="noopener">
+            <img src="assets/googleplay.png" width="172" height="71" alt="Google Play">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="accessibility-btn" type="button" aria-label="Erişilebilirlik">♿</button>
+</body>
+</html>

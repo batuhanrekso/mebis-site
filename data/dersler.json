@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "akts": "137",
+    "gano": "2,6",
+    "sano": "2,115"
+  },
+  "courses": [
+    { "type": "group", "name": "2025 - 2026 / 1-Güz Dönemi" },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112173", "name": "VERİ TABANI VE VERİ TABANI YÖNETİM SİSTEMLERİ", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(YetmişDört) 74,00", "letter": "C+", "coefficient": "2,9", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112174", "name": "İŞLETMELERDE NİCEL KARAR VERME YÖNTEMLERİ", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(AltmışAltı) 66,00", "letter": "C", "coefficient": "2,56", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112175", "name": "PROGRAMLAMA DİLLERİ I", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(AltmışDört) 64,00", "letter": "C-", "coefficient": "2,47", "has_history": true, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112176", "name": "BİLİŞİM SİSTEMLERİ VE E-İŞLETME", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(Doksan) 90,00", "letter": "A-", "coefficient": "3,59", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112177", "name": "GİRİŞİMCİLİK", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(AltmışAltı) 66,00", "letter": "C", "coefficient": "2,56", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112178", "name": "LİDERLİK VE YÖNETSEL BECERİLER", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(AltmışÜç) 63,00", "letter": "C-", "coefficient": "2,43", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112179", "name": "SİSTEM ANALİZİ VE TASARIMI", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Kaldı", "average": "(OnYedi) 17,00", "letter": "F", "coefficient": "", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3112180", "name": "PAZARLAMANIN İLKELERİ", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Kaldı", "average": "(Elli) 50,00", "letter": "F", "coefficient": "", "has_history": false, "has_supplement": false },
+
+    { "type": "group", "name": "2025 - 2026 / 2-Bahar Dönemi" },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3212177", "name": "GÖRSEL PROGRAMLAMA", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(SeksenSekiz) 88,00", "letter": "B+", "coefficient": "3,5", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Programa Bağlı Seçmeli", "code": "MIS3212181", "name": "İNSAN KAYNAKLARI YÖNETİMİ", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(AltmışDört) 64,00", "letter": "C-", "coefficient": "2,47", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3212180", "name": "PROGRAMLAMAYA GİRİŞ VE ALGORİTMALAR", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(Altmış) 60,00", "letter": "C-", "coefficient": "2,3", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Programa Bağlı Seçmeli", "code": "MIS3212182", "name": "YAPAY ZEKA", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(Altmış) 60", "letter": "C-", "coefficient": "2,3", "has_history": false, "has_supplement": true, "supplement_tooltip": "Bütünleme - 60" },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS2210875", "name": "PROGRAMLAMA DİLLERİ II", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Geçti", "average": "(YetmişDört) 74,00", "letter": "C+", "coefficient": "2,7", "has_history": true, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3212179", "name": "NESNE TABANLI PROGRAMLAMA", "akts": "6", "kredi": "3", "lang": "İngilizce", "status": "Kaldı", "average": "(KırkAltı) 46,00", "letter": "F", "coefficient": "", "has_history": false, "has_supplement": false },
+    { "type": "row", "course_type": "Zorunlu", "code": "MIS3212183", "name": "SÜREÇ ANALİZİ", "akts": "5", "kredi": "3", "lang": "İngilizce", "status": "Kaldı", "average": "(KırkBir) 41,00", "letter": "F", "coefficient": "", "has_history": false, "has_supplement": true, "supplement_tooltip": "Bütünleme - 50" }
+  ]
+}

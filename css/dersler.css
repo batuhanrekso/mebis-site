@@ -1,0 +1,133 @@
+.dersler-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 15px;
+  background: #f8fafb;
+  border-bottom: 1px solid #e9edf0;
+}
+
+.stat-box {
+  background: #fff;
+  border: 1px solid #e9edf0;
+  border-radius: 3px;
+  padding: 8px 14px;
+  font-size: 12px;
+  color: #4d627b;
+}
+
+.stat-box strong {
+  color: #177bbb;
+  font-weight: 700;
+}
+
+.stat-box .label-text {
+  color: #8f9ea6;
+  margin-right: 4px;
+}
+
+.btn-raporlar {
+  margin-left: auto;
+  background: #177bbb;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dersler-table .course-name {
+  color: #177bbb;
+  font-weight: 600;
+}
+
+.dersler-table .status-passed {
+  color: #8bc34a;
+  font-weight: 600;
+}
+
+.dersler-table .status-failed {
+  color: #e53f50;
+  font-weight: 600;
+}
+
+.dersler-table .status-absent {
+  color: #e53f50;
+  font-weight: 600;
+}
+
+.supplement-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #8bc34a;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  font-style: normal;
+  cursor: default;
+  position: relative;
+}
+
+.supplement-icon:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 400;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.supplement-icon:hover::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: #333;
+  z-index: 10;
+}
+
+.history-icon {
+  color: #8f9ea6;
+}
+
+.gear-col {
+  text-align: center;
+  color: #8f9ea6;
+}
+
+.dersler-table thead th {
+  font-size: 11px;
+}
+
+.dersler-table tbody td {
+  font-size: 12px;
+}
+
+.dersler-table .icon-action {
+  color: #177bbb;
+  font-size: 14px;
+}
+
+.student-id-line {
+  font-size: 11px;
+  color: #177bbb;
+  margin-bottom: 4px;
+}
+
+.tab-header-info .student-line {
+  font-size: 11px;
+}

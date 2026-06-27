@@ -1,0 +1,39 @@
+[
+  {
+    "type": "group",
+    "name": "2025 - 2026 / 2-Bahar Dönemi"
+  },
+  {
+    "type": "row",
+    "group": "2025 - 2026 / 2-Bahar Dönemi",
+    "active": true,
+    "icon": "minus",
+    "tanim_type": "final",
+    "accent": "primary",
+    "status": "Sonuçlandı",
+    "date": "22.06.2026",
+    "kind": "Standart",
+    "title": "Bütünleme, YAPAY ZEKA",
+    "group_col": "",
+    "time": "09:00 - 09:50",
+    "place": "B504",
+    "grade": "60",
+    "has_download": false
+  },
+  {
+    "type": "row",
+    "group": "2025 - 2026 / 2-Bahar Dönemi",
+    "active": false,
+    "icon": "minus",
+    "tanim_type": "but",
+    "status": "Sonuçlandı",
+    "date": "22.06.2026",
+    "kind": "Standart",
+    "title": "Bütünleme, SÜREÇ ANALİZİ",
+    "group_col": "",
+    "time": "10:00 - 10:50",
+    "place": "B503",
+    "grade": "50",
+    "has_download": false
+  }
+]

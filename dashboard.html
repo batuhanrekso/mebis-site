@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mebis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div id="container" class="effect mainnav-lg mainnav-fixed">
+    <header id="navbar">
+      <div id="navbar-container">
+        <div class="navbar-header">
+          <a href="dashboard.html" class="navbar-brand">
+            <img src="assets/brand-icon.png" alt="Mebis" class="brand-icon">
+            <span class="brand-text">&nbsp;Mebis</span>
+          </a>
+        </div>
+
+        <div class="navbar-content">
+          <div class="navbar-left">
+            <ul class="nav navbar-top-links">
+              <li class="tgl-menu-btn">
+                <a class="mainnav-toggle" href="#"><i class="fa fa-navicon fa-lg"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-cutlery fa-lg"></i></a>
+              </li>
+            </ul>
+            <div id="session-progress">
+              <span class="label label-info" id="server-clock">27.06.2026 21:55:16</span>
+            </div>
+          </div>
+
+          <div class="navbar-right">
+            <ul class="nav navbar-top-links">
+              <li>
+                <a href="#"><span class="flag-icon-tr-nav" title="Türkçe"></span></a>
+              </li>
+              <li class="bell-wrap">
+                <a href="#"><i class="fa fa-bell"></i><span class="badge badge-header badge-danger"></span></a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-user-link">
+                  <img class="img-circle img-user media-object" src="assets/profile-nav.png" alt="Mert Eren GÜÇLÜ">
+                  <span class="username hidden-xs">Mert Eren GÜÇLÜ</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="boxed">
+      <div id="content-container">
+        <div id="page-title">
+          <h1 class="page-header text-overflow"></h1>
+          <div class="searchbox">
+            <div class="custom-search-form">
+              <input id="txtAra" type="text" class="form-control" placeholder="Ara.." value="">
+              <button id="btnAra" type="button"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div id="page-content">
+          <div class="fixed-fluid">
+            <div class="fixed-lg-300 pull-lg-right">
+              <div class="panel panel-bordered profile-panel">
+                <div class="panel-heading">
+                  <h4 class="panel-title"><a href="#">Kullanıcı Profili</a></h4>
+                </div>
+                <div class="panel-body-content">
+                  <a class="program-link text-uppercase text-overflow" title="Program adı">
+                    Yönetim Bilişim Sistemleri Programı (İngilizce)
+                  </a>
+                  <hr class="mebis-hr">
+                  <ul class="list-group text-sm">
+                    <li class="list-group-item text-right">
+                      <span class="pull-left"><i class="fa fa-hashtag" title="Öğrenci Numarası"></i></span>
+                      <span title="Öğrenci Numarası">9A220055</span>
+                    </li>
+                    <li class="list-group-item text-right">
+                      <span class="pull-left"><i class="fa fa-bookmark" title="Kayıt Türü/ Eğitim Dili"></i></span>
+                      <span title="Öğrenci Durum/ Eğitim Dili">Okuyor / 3. Sınıf</span>
+                    </li>
+                    <li class="list-group-item text-right">
+                      <span class="pull-left"><i class="fa fa-puzzle-piece" title="Fakülte"></i></span>
+                      <span title="Fakülte">İşletme ve Yönetim Bilimleri Fakültesi / İngilizce</span>
+                    </li>
+                  </ul>
+                  <div class="advisor-item">
+                    <div class="media-left">
+                      <img class="img-circle img-user media-object" src="assets/advisor.png" alt="Profile Picture">
+                    </div>
+                    <div class="media-body">
+                      <p title="Danışman Adı">Öğr.Gör. Nada A. M. MISK</p>
+                      <small class="text-muted" title="Danışman Email">nada.misk@medipol.edu.tr</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fluid">
+              <div class="alert-wrap">
+                <div class="alert alert-danger" role="alert">
+                  <div class="media">
+                    <div class="media-left alert-icon"><i class="fa fa-bolt fa-2x"></i></div>
+                    <div class="media-body">
+                      <h4 class="alert-title">DİKKAT !</h4>
+                      <p class="alert-message">Doldurmanız gereken anket(ler) bulunmaktadır.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="alert-wrap alert-with-action">
+                <div class="alert alert-danger" role="alert">
+                  <button class="btn btn-warning" type="button">Tekrar Gösterme</button>
+                  <div class="media">
+                    <div class="media-left"><i class="fa fa-bolt fa-2x"></i></div>
+                    <div class="media-body">
+                      <h4 class="alert-title">Öğrencilerimizin Dikkatine!!!</h4>
+                      <p>Sevgili Öğrencilerimiz</p>
+                      <p>Öğrenci dolap üstleri ve koridorlarda bulunan kişisel malzemelerin <strong>19.06.2026 saat 18.00'e kadar</strong> alınması, öğrenci dolaplarının ise <strong>27.06.2026 saat 18.00'a kadar</strong> boşaltılması gerekmektedir. Belirtilen tarihlere kadar alınmayan malzemeler imha edilecek olup, dolaplar yeniden kullanıma hazır hale getirilecektir.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel-body-menu" id="divHizliMenuler">
+                <div class="menu-section">
+                  <p class="section-title">Kullanıcı</p>
+                  <p class="section-subtitle">Kullanıcı</p>
+                  <div class="hizlimenu-grid">
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-wpforms"></i></span><p>Çözüm Merkezi</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-paper-plane"></i></span><p>Başvurularım</p></a>
+                  </div>
+                </div>
+
+                <div class="menu-section">
+                  <p class="section-subtitle">Öğrenci</p>
+                  <div class="hizlimenu-grid">
+                    <a class="hizlimenu" href="dersler.html"><span class="text-3x"><i class="fa fa-book"></i></span><p>Dersler</p></a>
+                    <a class="hizlimenu" href="sinavlar.html"><span class="text-3x"><i class="fa fa-file-o"></i></span><p>Sınavlar</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-archive"></i></span><p>Taleplerim</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-exchange"></i></span><p>Ders Seçim</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-try"></i></span><p>Ödeme İşlemleri</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-calendar-o"></i></span><p>Ders Programı</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-edit"></i></span><p>Anketler</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-institution"></i></span><p>Medigem</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-plane"></i></span><p>Erasmus</p></a>
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-book"></i></span><p>Öğrenci Rehberi</p></a>
+                  </div>
+                </div>
+
+                <div class="menu-section">
+                  <p class="section-title">Merkezler</p>
+                  <p class="section-subtitle">Sürekli Eğitim</p>
+                  <div class="hizlimenu-grid">
+                    <a class="hizlimenu" href="#"><span class="text-3x"><i class="fa fa-history"></i></span><p>Kursiyer Anasayfa</p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav id="mainnav-container">
+      <div id="mainnav">
+        <div id="mainnav-profile" class="mainnav-profile">
+          <div class="profile-wrap">
+            <div class="pad-btm">
+              <img class="img-circle img-md img-border" src="assets/profile-sidebar.png" alt="Mert Eren GÜÇLÜ">
+            </div>
+            <p class="mnp-name">Mert Eren GÜÇLÜ</p>
+            <span class="mnp-desc">mert.guclu@std.medipol.edu.tr</span>
+          </div>
+        </div>
+
+        <div id="mainnav-shortcut">
+          <ul class="shortcut-wrap">
+            <li>
+              <a class="shortcut-grid" href="dashboard.html" title="Anasayfa">
+                <div class="icon-wrap-sm icon-circle bg-trans-dark"><i class="fa fa-home"></i></div>
+              </a>
+            </li>
+            <li>
+              <a class="shortcut-grid" href="#" title="Mesajlar">
+                <div class="icon-wrap-sm icon-circle bg-trans-dark"><i class="fa fa-envelope"></i></div>
+              </a>
+            </li>
+            <li>
+              <a class="shortcut-grid" href="#" title="Dosya Gezgini">
+                <div class="icon-wrap-sm icon-circle bg-trans-dark"><i class="fa fa-folder-open"></i></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul id="mainnav-menu">
+          <li class="list-header">Kullanıcı</li>
+          <li><a href="#"><i class="fa fa-user-o"></i><span class="menu-title">Kullanıcı</span><i class="arrow"></i></a></li>
+          <li><a href="#"><i class="fa fa-graduation-cap"></i><span class="menu-title">Öğrenci</span><i class="arrow"></i></a></li>
+          <li class="list-header">Merkezler</li>
+          <li><a href="#"><i class="fa fa-history"></i><span class="menu-title">Sürekli Eğitim</span><i class="arrow"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <a class="scroll-top" href="#" aria-label="Yukarı"><i class="fa fa-chevron-up"></i></a>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
